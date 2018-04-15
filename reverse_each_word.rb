@@ -3,12 +3,9 @@
 # end
 
 def reverse_each_word(string)
-# 	raise StandardError.new('Passed string cannot be reversed because it is empty') if string.nil? || string.empty?
-	words = string.split(" ") #splitting string into an Array of words
+	words = string.split(" ") 
 	new_sentence = []
 	words.each do |word|
-		# doing the same thing as reverse_whole_string
-		# but with eah word from an array
 		end_loop = word.length
 		new_string = ''
 		while end_loop > 0
