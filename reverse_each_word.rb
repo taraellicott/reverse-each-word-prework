@@ -1,6 +1,4 @@
-def reverse_each_word(sentence)
-  sentence.split.collect {|word| word.reverse}.join(" ")
-end
+
 
 def reverse_each_word(string)
 	words = string.split(" ") 
@@ -18,5 +16,9 @@ def reverse_each_word(string)
 	end
 	new_sentence.join(' ') 
 	#joining Array into a string delimited by spaces
+end
+
+def reverse_each_word(sentence)
+  sentence.split.collect {|word| word.reverse}.join(" ")
 end
 
