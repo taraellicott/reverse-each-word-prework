@@ -10,11 +10,13 @@ def reverse_each_word(string)
 		new_string = ''
 		while end_loop > 0
 			end_loop -= 1
-			new_string += word[end_loop] #Reversing every letter of each word
+			new_string += word[end_loop] 
+			#Reversing every letter of each word
 		end
-		new_sentence << new_string # appending every word to an new Array
-		# or you could just do this: new_sentence << reverse_whole_string(word)
+		new_sentence << new_string 
+		# appending every word to an new Array
 	end
-	new_sentence.join(' ') #joining Array into a string delimited by spaces
+	new_sentence.join(' ') 
+	#joining Array into a string delimited by spaces
 end
 
